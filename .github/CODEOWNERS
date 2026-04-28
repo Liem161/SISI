@@ -1,3 +1,5 @@
+# Last match in file takes precedence.
+
 .github/ @pheenty @Shegare
 
 # Game logic
@@ -10,5 +12,6 @@
 # Resources/Prototypes/*
 
 # Resources/Maps/*
+# Resources/Prototypes/Maps/*
 
 Resources/Textures/* @zagreastyas # le gooner
