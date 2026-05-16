@@ -627,7 +627,7 @@
 
 - type: entity
   name: pill
-  suffix: Dermaline 10u
+  suffix: Dermaline 20u
   parent: Pill
   id: PillDermaline
   components:
@@ -636,7 +636,7 @@
   - type: Sprite
     state: pill8
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: dermaline 20u
   - type: Solution
     solution:
       reagents:
