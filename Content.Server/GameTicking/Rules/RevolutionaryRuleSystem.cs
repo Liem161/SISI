@@ -3,6 +3,7 @@ using Content.Goobstation.Shared.Revolutionary;
 using Content.Server.Antag.Components;
 using Content.Server.Chat.Systems;
 using Content.Server.Communications;
+using Content.Shared.Mindshield.Components;
 // </Trauma>
 using System.Linq;
 using Content.Server.Administration.Logs;
@@ -23,16 +24,15 @@ using Content.Shared.GameTicking.Components;
 using Content.Shared.Humanoid;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Mind.Components;
-using Content.Shared.Mindshield.Components;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.NPC.Prototypes;
 using Content.Shared.NPC.Systems;
+using Content.Shared.Revolutionary;
 using Content.Shared.Revolutionary.Components;
 using Content.Shared.Roles.Components;
 using Content.Shared.Stunnable;
-using Content.Shared.Zombies;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Content.Shared.Cuffs.Components;
@@ -168,8 +168,7 @@ public sealed partial class RevolutionaryRuleSystem : GameRuleSystem<Revolutiona
 
     // Trauma - nuked conversion shitcode its not used
 
-    //~~TODO: Enemies of the revolution~~
-    // goob edit: too bad wizden goob did it first :trollface:
+    //TODO: Enemies of the revolution
     private void OnCommandMobStateChanged(EntityUid uid, CommandStaffComponent comp, MobStateChangedEvent ev)
     {
         if (ev.NewMobState == MobState.Dead || ev.NewMobState == MobState.Invalid)
