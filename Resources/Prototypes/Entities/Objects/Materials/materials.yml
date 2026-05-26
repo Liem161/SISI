@@ -483,9 +483,9 @@
     materialComposition:
       Bananium: 150
   - type: Sprite
-    state: bananium_3
+    state: bananium_1 # Trauma - theres only 2 states in this sprite
     layers:
-    - state: bananium_3
+    - state: bananium_1 # Trauma
       map: [ "base" ]
   - type: Stack
     stackType: Bananium
@@ -493,8 +493,7 @@
     baseLayer: base
     layerStates:
     - bananium
-    - bananium_2
-    - bananium_3
+    - bananium_1 # Trauma - replaced _2 and _3
   - type: FlavorProfile
     flavors:
     - banana
