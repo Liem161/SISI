@@ -9122,3 +9122,12 @@ Entries:
   id: 1040
   time: '2026-05-27T06:22:01.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2826
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Changelings absorbing bodies now does 200 cellular to each part instead of
+      splitting it up.
+  id: 1041
+  time: '2026-05-27T09:14:22.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2833
