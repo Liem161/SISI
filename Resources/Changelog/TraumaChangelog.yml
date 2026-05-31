@@ -9328,3 +9328,10 @@ Entries:
   id: 1060
   time: '2026-05-31T04:53:14.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2899
+- author: TechnicFighter
+  changes:
+  - type: Fix
+    message: Fixed Clown, Mime and Chaplain reinforcements not being their job.
+  id: 1061
+  time: '2026-05-31T04:54:27.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2875
