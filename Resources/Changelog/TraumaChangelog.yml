@@ -9411,3 +9411,12 @@ Entries:
   id: 1068
   time: '2026-05-31T10:19:26.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2934
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Fixed bingles speaking tau-ceti basic and having to take the ghost role
+      twice.
+  id: 1069
+  time: '2026-05-31T11:09:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2937
