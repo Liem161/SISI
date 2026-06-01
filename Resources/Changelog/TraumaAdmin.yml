@@ -216,3 +216,10 @@ Entries:
   id: 28
   time: '2026-06-01T08:24:37.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2958
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed Freeze and Mute verb allowing LOOC.
+  id: 29
+  time: '2026-06-01T08:48:05.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2960
