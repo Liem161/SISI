@@ -9508,3 +9508,12 @@ Entries:
   id: 1079
   time: '2026-06-01T17:20:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2972
+- author: Hoodsie
+  changes:
+  - type: Add
+    message: Zombie immune to drones
+  - type: Remove
+    message: Oil bloodstream from drones
+  id: 1080
+  time: '2026-06-01T17:26:43.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2812
