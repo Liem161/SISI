@@ -207,3 +207,12 @@ Entries:
   id: 27
   time: '2026-05-31T08:45:07.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1718
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      No more logging admins using commands that anyone can run like ghostroles,
+      say, etc.
+  id: 28
+  time: '2026-06-01T08:24:37.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2958
