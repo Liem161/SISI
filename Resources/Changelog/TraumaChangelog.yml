@@ -9701,3 +9701,10 @@ Entries:
   id: 1098
   time: '2026-06-03T18:18:27.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3020
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Enchanting scrolls are now made out of paper, i.e. can burn.
+  id: 1099
+  time: '2026-06-04T09:39:36.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3037
