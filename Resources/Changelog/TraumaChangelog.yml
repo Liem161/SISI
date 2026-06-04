@@ -9733,3 +9733,12 @@ Entries:
   id: 1102
   time: '2026-06-04T23:41:26.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3042
+- author: assripper.
+  changes:
+  - type: Tweak
+    message: >-
+      Xeno resin walls/doors are now 100% soundproof, your screams will not be
+      heard..
+  id: 1103
+  time: '2026-06-04T23:44:48.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3039
