@@ -9818,3 +9818,12 @@ Entries:
   id: 1113
   time: '2026-06-05T12:59:42.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3057
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Probably fixed replays randomly not getting saved because of microslop's
+      shitcode
+  id: 1114
+  time: '2026-06-05T13:01:48.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3058
