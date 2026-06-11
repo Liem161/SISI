@@ -639,20 +639,20 @@
   id: EnergyShield
   description: Exotic energy shield, when folded, can even fit in your pocket.
   components:
-  # <Trauma>
-  - type: Parry
-    reflects:
-    - energy
-    maxParries: 0
-    maxReflects: 10
-    reflectMinSkill: 50
-    reflectSpread: 300
-    soundOnReflect:
-      path: /Audio/Weapons/Guns/Hits/laser_sear_wall.ogg
-  - type: HeldSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
-  - type: MeleeWeapon
+    # <Trauma>
+    - type: Parry
+      reflects:
+      - energy
+      maxParries: 0
+      maxReflects: 10
+      reflectMinSkill: 50
+      reflectSpread: 300
+      soundOnReflect:
+        path: /Audio/Weapons/Guns/Hits/laser_sear_wall.ogg
+    - type: HeldSpeedModifier
+      walkModifier: 0.9
+      sprintModifier: 0.9
+    - type: MeleeWeapon
       attackRate: 1
       damage:
         types:
@@ -664,7 +664,7 @@
       startingCharge: 35
     - type: BatterySelfRecharger
       autoRechargeRate: 1 # inky edit - was 3
-      - type: RechargeableBlocking
+    - type: RechargeableBlocking
       dischargedRechargeRate: 2
       chargedRechargeRate: 1 # inky edit - was 2
     # </Trauma>
