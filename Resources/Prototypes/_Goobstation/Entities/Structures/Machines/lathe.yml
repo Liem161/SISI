@@ -259,7 +259,7 @@
     # <Trauma>
     - ServiceBoardsTrauma
     - ServiceBoardsGoob
-    - Translators
+#    - Translators # inky edit
     # </Trauma>
     - Janitor
     - Instruments
