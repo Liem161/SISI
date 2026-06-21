@@ -54,6 +54,10 @@
   - type: ToggleCellDraw
   - type: PowerCellDraw
     useCharge: 100
+  # inkymed
+  - type: Defibrillator
+    bpmZapHeal: -90 # more massive and med-grade defib
+  # /inkymed
 
 - type: entity
   id: DefibrillatorEmpty
@@ -104,8 +108,14 @@
   id: DefibrillatorSyndicate
   parent: [ DefibrillatorCompact, BaseSyndicateContraband ]
   name: interdyne defibrillator
-  description: Doubles as a self-defense weapon against war-crime inclined tiders.
+  description: Doubles as a self-defense weapon against war-crime inclined tiders. Has lower charge-up rate and auto-stabilises to the BPM of the patient.
   components:
+  # inkymed
+  - type: Defibrillator
+    autoStabilisation: true # combat defib
+    doAfterDuration: 2
+    bpmZapHeal: 45 # lol its negative in the basedefib so due to autostabilisation it was inverted
+  #/inkymed
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsyndi.rsi
     layers:
