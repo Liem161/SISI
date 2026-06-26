@@ -1,4 +1,5 @@
 using Content.Shared.Alert;
+using Content.Shared.FixedPoint;
 
 namespace Content.Medical.Shared.Body;
 
@@ -8,10 +9,19 @@ public sealed partial class HeartComponent
     /// The starting heartrate AKA what it should be
     /// </summary>
     [DataField]
-    public float NormalHeartRate = 100f;
+    public float NormalHeartRate = 80f;
 
+    /// <summary>
+    /// After what BPM the heartrate becomes critical
+    /// </summary>
     [DataField]
-    public float MaxHeartRate = 310f;
+    public float MaxHeartRate = 290f;
+
+    /// <summary>
+    /// After MaxHeartRate is reached, every second the heart has an X% chance of stopping
+    /// </summary>
+    [DataField]
+    public float HeartRateCriticalStopChance = 0.03f;
 
     [DataField]
     public float MinHeartRate = 0f;
@@ -21,15 +31,22 @@ public sealed partial class HeartComponent
     /// aims to be at StartingHeartRate
     /// </summary>
     [DataField]
-    public float StabilisationRate = 1f;
+    public float StabilisationRate = 0.5f;
 
     /// <summary>
-    /// if the current heartrate is +FibrillationCap or -FibrillationCap from the starting heart rate,
-    /// the entity will receive a fibrillation alert and will stop stabilising on itself,
-    /// eventually reaching either min or max cap on the heartrate
+    /// extra factor for the parabolic formula
+    /// (cur - norm)(cur - minfib)(cur - maxfib)
     /// </summary>
     [DataField]
-    public float FibrillationCap = 50f;
+    public float StabilisationRateModifier = 0.00003f;
+
+    /// <summary>
+    /// if the current heartrate is beyond fibrillation caps,
+    /// the entity will receive a fibrillation alert and will stop stabilising on itself,
+    /// eventually reaching into a cap of the heartrate
+    /// </summary>
+    [DataField]
+    public Vector2 FibrillationCaps = new(40f, 210f);
 
     [ViewVariables, AutoNetworkedField]
     public float CurrentHeartRate;

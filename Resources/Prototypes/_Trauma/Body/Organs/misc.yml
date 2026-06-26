@@ -6,6 +6,13 @@
   name: mi13 statveka sandevistan
   description: A cybernetic heart implant that drastically improves the user's speed and reflexes for a short duration, at the cost of endurance. Once used by a certain mercenary.
   components:
+  # inkymed
+  - type: Heart
+    normalHeartRate: 80
+    maxHeartRate: 400 # military grade heart cybernetic son
+    fibrillationCaps: 30,280
+    stabilisationRate: 2
+  # inkymed
   - type: Cybernetics
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/sandevistan.rsi

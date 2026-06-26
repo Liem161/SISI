@@ -26,6 +26,18 @@ public sealed partial class ModifyHeartRate : EntityEffectBase<ModifyHeartRate>
     [DataField]
     public bool AutoStabilisation;
 
+    /// <summary>
+    /// If not null, the reagent will not lower the heart rate below this value
+    /// </summary>
+    [DataField]
+    public float? LowerCap;
+
+    /// <summary>
+    /// If not null, the reagent will not raise the heart rate above this value
+    /// </summary>
+    [DataField]
+    public float? HigherCap;
+
     public override string EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) // todo this is pure SLOP
     {
         var lines = new List<string>();
@@ -36,10 +48,10 @@ public sealed partial class ModifyHeartRate : EntityEffectBase<ModifyHeartRate>
             {
                 lines.Add(Loc.GetString("entity-effect-guidebook-modify-heart-rate-stabilise-increase",
                     ("amount", Math.Abs(Amount)),
-                    ("target", 100))); // todo inkymed pass startingheartrate somehow
+                    ("highCap", HigherCap ?? 80))); // todo inkymed pass startingheartrate somehow
                 lines.Add(Loc.GetString("entity-effect-guidebook-modify-heart-rate-stabilise-decrease",
                     ("amount", Math.Abs(Amount)),
-                    ("target", 100)));
+                    ("lowCap", LowerCap ?? 80)));
             }
         }
         else
