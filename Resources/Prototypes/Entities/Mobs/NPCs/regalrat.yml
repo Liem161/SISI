@@ -404,7 +404,7 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: stayOff
     iconOn:
       sprite: Interface/Actions/actions_rat_king.rsi
@@ -423,10 +423,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: followOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: follow
     priority: 6
   - type: InstantAction
@@ -442,10 +442,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: attackOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: attack
     priority: 7
   - type: InstantAction
@@ -461,10 +461,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: looseOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: _SIS/Interface/Actions/actions_rat_king.rsi # SIS
       state: loose
     priority: 8
   - type: InstantAction
