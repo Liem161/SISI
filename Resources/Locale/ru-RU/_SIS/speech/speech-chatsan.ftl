@@ -25,23 +25,23 @@ ru-chatsan-word-replace-8 = привет
 ru-chatsan-word-9 = лан
 ru-chatsan-word-replace-9 = ладно
 
-ru-chatsan-word-11 = збс
-ru-chatsan-word-replace-11 = заебись
+ru-chatsan-word-10 = збс
+ru-chatsan-word-replace-10 = заебись
 
-ru-chatsan-word-12 = мб
-ru-chatsan-word-replace-12 = может быть
+ru-chatsan-word-11 = мб
+ru-chatsan-word-replace-11 = может быть
 
-ru-chatsan-word-13 = нзч
-ru-chatsan-word-replace-13 = не за что
+ru-chatsan-word-12 = нзч
+ru-chatsan-word-replace-12 = не за что
 
-ru-chatsan-word-14 = всм
-ru-chatsan-word-replace-14 = всмысле
+ru-chatsan-word-13 = всм
+ru-chatsan-word-replace-13 = всмысле
 
-ru-chatsan-word-15 = чзх
-ru-chatsan-word-replace-15 = что за херня?
+ru-chatsan-word-14 = чзх
+ru-chatsan-word-replace-14 = что за херня?
 
-ru-chatsan-word-16 = сяб
+ru-chatsan-word-15 = сяб
+ru-chatsan-word-replace-15 = спасибо
+
+ru-chatsan-word-16 = спс
 ru-chatsan-word-replace-16 = спасибо
-
-ru-chatsan-word-17 = спс
-ru-chatsan-word-replace-17 = спасибо
