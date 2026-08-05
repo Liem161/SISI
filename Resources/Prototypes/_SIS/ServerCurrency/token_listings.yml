@@ -1,0 +1,39 @@
+- type: tokenListing
+  id: MinorAntagToken
+  name: gs-balanceui-shop-buy-token-minor-antag
+  label: gs-balanceui-shop-token-minor-antag
+  description: gs-balanceui-shop-buy-token-minor-antag-desc
+  price: 10
+  adminNote: gs-balanceui-remark-token-minor-antag
+
+- type: tokenListing
+  id: MediumAntagToken
+  name: gs-balanceui-shop-buy-token-medium-antag
+  label: gs-balanceui-shop-token-medium-antag
+  description: gs-balanceui-shop-buy-token-medium-antag-desc
+  price: 20
+  adminNote: gs-balanceui-remark-token-medium-antag
+
+- type: tokenListing
+  id: HighAntagToken
+  name: gs-balanceui-shop-buy-token-high-antag
+  label: gs-balanceui-shop-token-high-antag
+  description: gs-balanceui-shop-buy-token-high-antag-desc
+  price: 30
+  adminNote: gs-balanceui-remark-token-high-antag
+
+- type: tokenListing
+  id: LightAdminAbuseToken
+  name: gs-balanceui-shop-buy-token-light-admin-abuse
+  label: gs-balanceui-shop-token-light-admin-abuse
+  description: gs-balanceui-shop-buy-token-light-admin-abuse-desc
+  price: 5
+  adminNote: gs-balanceui-remark-token-light-admin-abuse
+
+- type: tokenListing
+  id: HardAdminAbuseToken
+  name: gs-balanceui-shop-buy-token-hard-admin-abuse
+  label: gs-balanceui-shop-token-hard-admin-abuse
+  description: gs-balanceui-shop-buy-token-hard-admin-abuse-desc
+  price: 25
+  adminNote: gs-balanceui-remark-token-hard-admin-abuse
