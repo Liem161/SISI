@@ -31,7 +31,7 @@ public sealed partial class CosmicChantryComponent : Component
 
     [DataField] public SoundSpecifier BriefingSfx = new SoundPathSpecifier("/Audio/_DV/CosmicCult/antag_cosmic_AI_briefing.ogg");
 
-    [DataField] public SoundSpecifier ChantryDestructionAnnouncement = new SoundPathSpecifier("/Audio/_SIS/Announcements/announce.ogg"); // SIS
+    [DataField] public SoundSpecifier ChantryDestructionAnnouncement = new SoundPathSpecifier("/Audio/Announcements/announce.ogg");
 
     [DataField] public EntProtoId Colossus = "MobCosmicColossus";
 
