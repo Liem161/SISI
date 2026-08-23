@@ -29,7 +29,7 @@
   - type: StationEvent
     startColor: "#18abf5"
     startAudio:
-      path: /Audio/_SIS/Announcements/announce.ogg # SIS
+      path: /Audio/Announcements/announce.ogg
   - type: CargoGiftsRule
     sender: cargo-gift-default-sender
 
