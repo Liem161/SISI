@@ -81,7 +81,7 @@ public abstract partial class SharedSurgerySystem
         });
     }
 
-    private void SubSurgery<TComp>(EntityEventRefHandler<TComp, SurgeryStepEvent> onStep,
+    public void SubSurgery<TComp>(EntityEventRefHandler<TComp, SurgeryStepEvent> onStep, // SIS-Surgery | private
         EntityEventRefHandler<TComp, SurgeryStepCompleteCheckEvent> onComplete) where TComp : IComponent
     {
         SubscribeLocalEvent(onStep);
