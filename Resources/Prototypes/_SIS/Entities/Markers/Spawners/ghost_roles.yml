@@ -13,6 +13,39 @@
 
 - type: entity
   parent: MarkerBase
+  id: SpawnPointGhostFirePsiMonkey
+  name: psi-monkey spawn point
+  components:
+  - type: GhostRole
+    name: ghost-role-information-psimonkey-name
+    description: ghost-role-information-psimonkey-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
+  - type: GhostRoleMobSpawner
+    prototype: MobFirePsiMonkey
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: _SIS/Mobs/Animals/psimonkey.rsi
+      state: red
+
+- type: entity
+  parent: SpawnPointGhostFirePsiMonkey
+  id: SpawnPointGhostIcePsiMonkey
+  components:
+  - type: GhostRoleMobSpawner
+    prototype: MobIcePsiMonkey
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: _SIS/Mobs/Animals/psimonkey.rsi
+      state: blue
+
+- type: entity
+  parent: MarkerBase
   id: SpawnPointGhostCorticalBorer
   name: сortical borer spawn point
   components:

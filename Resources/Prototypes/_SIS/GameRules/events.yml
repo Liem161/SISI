@@ -5,14 +5,14 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/_SIS/Announcements/attention.ogg # SIS
+      path: /Audio/_SIS/Announcements/attention.ogg
     earliestStart: 20
     minimumPlayers: 10
     weight: 5
     duration: 60
   - type: VentHordeRule
     table:
-      id: MobFirePsiMonkey
+      id: SpawnPointGhostFirePsiMonkey
       amount: 1, 1
 
 - type: entity
@@ -22,18 +22,18 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/_SIS/Announcements/attention.ogg # SIS
+      path: /Audio/_SIS/Announcements/attention.ogg
     earliestStart: 20
     minimumPlayers: 10
     weight: 5
     duration: 60
   - type: VentHordeRule
     table:
-      id: MobIcePsiMonkey
+      id: SpawnPointGhostIcePsiMonkey
       amount: 1, 1
 
 - type: entity
-  parent: BaseMidroundAntagRule
+  parent: [ BaseMidroundAntagRule, BaseWerewolfRule ]
   id: WerewolfMidround
   components:
   - type: StationEvent
@@ -41,7 +41,6 @@
     earliestStart: 30
     minimumPlayers: 20
     duration: null
-  - type: WerewolfRule
   - type: AntagSelection
     antags:
     - !type:LinearAntagCount
@@ -50,13 +49,6 @@
         min: 2
         max: 5
       playerRatio: 12
-  - type: AntagPlayerEffects
-    effects:
-    - !type:NestedEffect
-      proto: WerewolfSkills
-  - type: AntagObjectives
-    objectives:
-    - EscapeWerewolfShuttleObjective
 
 - type: entity
   parent: BaseStationEventShortDelay
