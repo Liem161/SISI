@@ -682,4 +682,8 @@ binds:
 - function: Sprint
   type: State
   key: Space
+- function: OfferItem
+  type: State
+  key: F
+  mod1: Alt
 # SIS-End

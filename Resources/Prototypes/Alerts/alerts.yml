@@ -37,6 +37,7 @@
   - alertType: DragonPower # Goobstation
   - category: Ninjutsu # Goobstation
   - category: Counter # WD EDIT
+  - alertType: Offer # SIS
 
 - type: entity
   id: AlertSpriteView

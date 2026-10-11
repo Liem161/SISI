@@ -135,5 +135,6 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction MappingOpenContextMenu = "MappingOpenContextMenu";
 
         public static readonly BoundKeyFunction Sprint = "Sprint"; // SIS-Sprint
+        public static readonly BoundKeyFunction OfferItem = "OfferItem"; // SIS-Offer_item
     }
 }
